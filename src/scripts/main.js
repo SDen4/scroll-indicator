@@ -1,11 +1,11 @@
 const wrapper = document.querySelector('.wrapper'),
-      topline = document.querySelector('.toplinescroll'),
+      indicator = document.querySelector('.indicator'),
       currentWinWidth = parseInt(window.getComputedStyle(wrapper).width),
       totalScrollHeight = parseInt(document.body.scrollHeight - document.documentElement.clientHeight);
 
 let currentY;
 
-window.addEventListener('scroll', function() {
+window.addEventListener('scroll', () => {
     currentY = window.pageYOffset;
-    topline.style.width = (currentY/totalScrollHeight*currentWinWidth) + 'px';
+    indicator.style.width = (currentY/totalScrollHeight*currentWinWidth) + 'px';
 });

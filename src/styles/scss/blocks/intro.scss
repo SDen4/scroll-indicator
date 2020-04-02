@@ -1,9 +1,9 @@
-.toplinescroll {
+.indicator {
     position: fixed;
     top: 0;
-    height: 5px;
-    background-color: $topLineScrollColor;
-    transition: $lineInnertion;
+    height: $indicatorHeight;
+    background-color: $indicatorColor;
+    transition: $indicatorInnertion;
 }
 
 section {

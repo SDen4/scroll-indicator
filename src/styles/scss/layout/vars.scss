@@ -5,9 +5,11 @@ $section2Color: #D8BFD8;
 $section3Color: #F4A460;
 $blockColor: #DDA0DD;
 $shadowColor: #808080;
-$topLineScrollColor: #FF4500;
-//vars
-$lineInnertion: .5s;
+$indicatorColor: #FF4500;
+
+//params of indicator
+$indicatorHeight: 5px;
+$indicatorInnertion: .5s;
 
 //resolutions
 $desktop: 1280px;

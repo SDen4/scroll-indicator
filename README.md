@@ -1,6 +1,6 @@
-# Denis Skryabin
+## Denis Skryabin
 
-##  Start new project using this build:
+#  Scroll line smooth indicator:
 ```sh
 $ git clone https://github.com/SDen4/scroll-indicator.git
 $ cd scroll-indicator
